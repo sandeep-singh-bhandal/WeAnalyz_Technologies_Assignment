@@ -12,7 +12,7 @@ const Login = () => {
           <input type="password" placeholder="Password" className="bg-white p-4 border-2"/>
           <input type="password" placeholder="Email" className="bg-white p-4 border-2"/>
           </div>
-          <button type="submit" className="bg-[#296ef2] cursor-pointer text-white px-12 py-2 rounded-lg text-[20px]">Sign Up</button>
+          <Link to={"/sign-in"} className="bg-[#296ef2] cursor-pointer text-white px-12 py-2 rounded-lg text-[20px]">Sign Up</Link>
           <div className="w-1/2 flex justify-between">
             <Link to={"/forgot-password"} className="text-red-600 cursor-pointer">Forgot password?</Link>
             <Link to={"/sign-in"} className="cursor-pointer">Sign In</Link>
