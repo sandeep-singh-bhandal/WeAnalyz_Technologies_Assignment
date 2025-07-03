@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import SignUp from "../pages/SignUp"
 import Login from "../pages/Login"
 import ForgotPass from "../pages/ForgotPass"
@@ -11,8 +11,9 @@ const App = () => {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/sign-up" element={(<SignUp/>)} />
+       <Route path="/" element={<Navigate to="/sign-in" replace />} />
       <Route path="/sign-in" element={(<Login/>)} />
+      <Route path="/sign-up" element={(<SignUp/>)} />
       <Route path="/forgot-password" element={(<ForgotPass/>)} />
       <Route path="/dashboard" element={(<Dashboard/>)} />
       <Route path="/new-ticket" element={(<NewTicket/>)} />
