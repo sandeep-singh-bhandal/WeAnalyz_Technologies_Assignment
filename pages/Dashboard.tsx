@@ -8,7 +8,7 @@ const Dashboard = () => {
         <Sidebar />
         <div className="w-5/6 h-screen pt-20">
           <div className="relative h-1/2">
-            <h1 className="text-4xl font-bold text-center h-3/12 pt-4">Dashboard</h1>
+            <h1 className="text-4xl font-bold  text-center h-3/12 pt-4">Dashboard</h1>
             <div className="flex flex-wrap  gap-10 justify-center h-9/12">
               {Array.from({ length: 4 }).map((_, index) => (
                 <div
