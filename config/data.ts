@@ -480,3 +480,26 @@ export const ticketsData = [
     attachment: ""
   }
 ];
+
+export const CardData = [
+  {
+    title : "Total Tickets",
+    value : 12,
+    color : "#2f82ff",
+  },
+  {
+    title: "Total Solved",
+    value: 8,
+    color: "#0bff68",
+  },
+  {
+    title: "Total Awaiting Aproval",
+    value: 2,
+    color: "#fe594e",
+  },
+  {
+    title: "Total Solved",
+    value: 2,
+    color: "#fcff6c",
+  },
+]
